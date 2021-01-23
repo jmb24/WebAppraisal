@@ -10,7 +10,7 @@
     1. Run the command `git clone https://github.com/Bshuryan/WebAppraisal` `<insert desination directory>`
        * Note: You must specify a project name, so I would recommend the desination directory be `some/directories/WebAppraisal`, which will create a new folder titled `WebAppraisal` under `some/directories/`
     
- 2. An alternative method: you can download GitHub Desktop, select file in the top left --> clone directory.  From here you will see the GitHub projects attached to your account.  Clone the WebAppraisal Project.
+     2. An alternative method: you can download GitHub Desktop, select file in the top left --> clone directory.  From here you will see the GitHub projects attached to your account.  Clone the WebAppraisal Project.
 
 3. Set up your virtual environment.
    1. Run the command `virtualenv -p python3 venv`, which will create a new directory, `venv`
