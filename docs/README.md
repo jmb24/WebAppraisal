@@ -12,10 +12,18 @@
     
      2. An alternative method: you can download GitHub Desktop, select file in the top left --> clone directory.  From here you will see the GitHub projects attached to your account.  Clone the WebAppraisal Project.
 
-3. Set up your virtual environment.
+3. Set up your virtual environment. (MAC)
    1. Run the command `virtualenv -p python3 venv`, which will create a new directory, `venv`
    2. Activate your virtual environment by running `source venv/bin/activate`
    3. Install Django using pip by running the command `pip install django==3.1.5`
+
+4. Set up Virtual env in Windows.
+   1. login to pycharm and Open cloned project from GitHub
+   2. On the bottom of the pycharm window select Terminal
+   3. Find where your python install is located, you will need to run the command in terminal from this directory. **You can do this by running this command in CMD Prompt "py -c "import os, sys; print(os.path.dirname(sys.executable))"
+   4. change directorys in terminal to the file path given in the above cmd
+   5. once in the correct directory run 'py -m venv C:\"YourFilePathOfGitHubProject"\venv     *It is important to remember the folder name after your GitHub Project File Path in order to create a folder and avoid installing in the root of your project
+     *Running this correctly should get you a new folder in your pycharm client in the WebAppraisal project called "venv"
     
 ### Running Locally
 1. While in your virtual environment and at the top level of the project directory, run the command `python manage.py runserver`
