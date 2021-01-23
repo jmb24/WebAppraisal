@@ -1,16 +1,17 @@
 ### Setting Up the Django Project
 1. Install [Python version 3.7.4](https://www.python.org/downloads/release/python-374/) for your OS
    * After installing, validate that it was successful by running the command `python3 --version`
-
-*In Windows: If you type 'py' it will show you python version number and enter the python shell. type 'exit()' to leave.
    * Also ensure that pip was installed alongside python by running the command `pip --version`
 
-*In Windows: Type 'py -m pip --version' in CMD Prompt to see pip verion number
+   *In Windows: If you type 'py' it will show you python version number and enter the python shell. type 'exit()' to leave.
+   *In Windows: Type 'py -m pip --version' in CMD Prompt to see pip verion number
+
 2. Create a clone of our GitHub repository, which can be found [here](https://github.com/Bshuryan/WebAppraisal).
     1. Run the command `git clone https://github.com/Bshuryan/WebAppraisal` `<insert desination directory>`
        * Note: You must specify a project name, so I would recommend the desination directory be `some/directories/WebAppraisal`, which will create a new folder titled `WebAppraisal` under `some/directories/`
     
  2. An alternative method: you can download GitHub Desktop, select file in the top left --> clone directory.  From here you will see the GitHub projects attached to your account.  Clone the WebAppraisal Project.
+
 3. Set up your virtual environment.
    1. Run the command `virtualenv -p python3 venv`, which will create a new directory, `venv`
    2. Activate your virtual environment by running `source venv/bin/activate`
