@@ -1,0 +1,6 @@
+WebAppraisal/db.sqlite3
+WebAppraisal/__pycache__/**
+WebAppraisal/mirgrations/**
+webapp/__pycache__/**
+webapp/migrations/**
+../venv/**
