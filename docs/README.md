@@ -26,9 +26,17 @@
    4. change directorys in terminal to the file path given in the above cmd
    5. once in the correct directory run 'py -m venv C:\"YourFilePathOfGitHubProject"\venv     *It is important to remember the folder name after your GitHub Project File Path in order to create a folder and avoid installing in the root of your project
      *Running this correctly should get you a new folder in your pycharm client in the WebAppraisal project called "venv"
+   6. activate your virtual enviorment with venv\scripts\activate in CMD prompt
     
 ### Running Locally
+(MAC)
+
 1. While in your virtual environment and at the top level of the project directory, run the command `python manage.py runserver`
+2. Visit http://127.0.0.1:8000/, which will direct you to the landing page for our webapp.
+
+(WINDOWS)
+
+1. while in CMD prompt and have you venv active type 'py manage.py runserver'
 2. Visit http://127.0.0.1:8000/, which will direct you to the landing page for our webapp.
 
 
