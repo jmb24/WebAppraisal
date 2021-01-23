@@ -18,6 +18,7 @@
    3. Install Django using pip by running the command `pip install django==3.1.5`
 
 4. Set up Virtual env in Windows.
+   0. Make sure Django is installed by running the following in CMD prompt "py -m pip install Django"
    1. login to pycharm and Open cloned project from GitHub
    2. On the bottom of the pycharm window select Terminal
    3. Find where your python install is located, you will need to run the command in terminal from this directory. **You can do this by running this command in CMD Prompt "py -c "import os, sys; print(os.path.dirname(sys.executable))"
