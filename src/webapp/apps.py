@@ -2,4 +2,5 @@ from django.apps import AppConfig
 
 
 class WebappConfig(AppConfig):
-    name = 'webapp'
+    name = 'src.webapp'
+    verbose_name = 'Web Appraisal 95'
