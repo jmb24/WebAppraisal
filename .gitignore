@@ -5,6 +5,6 @@ src/WebAppraisal/settings/__pycache__/
 src/webapp/__pycache__/
 src/webapp/migrations/
 src/__pycache/
-../venv/
+venv/
 .coverage
 *.xml
