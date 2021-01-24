@@ -27,6 +27,7 @@
    5. once in the correct directory run 'py -m venv C:\"YourFilePathOfGitHubProject"\venv     *It is important to remember the folder name after your GitHub Project File Path in order to create a folder and avoid installing in the root of your project
      *Running this correctly should get you a new folder in your pycharm client in the WebAppraisal project called "venv"
    6. activate your virtual enviorment with venv\scripts\activate in CMD prompt
+   7. in pycharm, double click the shift key and type in "base" in the search box. Open up the base webApprasial.settings file, and press cntrl F to search for the "SECRET_KEY" variable. Replace the value to SECRET_KEY = 'secretkeyvalue' (secret key can be found in the discord)
     
 ### Running Locally
 (MAC)
